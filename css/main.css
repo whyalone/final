@@ -917,7 +917,7 @@ a{
 	background-size: contain;
 }
 
-#ins_qualilty .warp .ins2_content span:nth-of-type(1) {
+#ins_qualilty .warp .ins2_content:nth-of-type(1) span{
 	background-image: url('../img/kol/11.png');
 }
 
