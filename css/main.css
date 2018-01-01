@@ -917,6 +917,11 @@ a{
 	background-size: contain;
 }
 
+#ins_qualilty .warp .ins2_content span:nth-of-type(1) {
+	background-image: url('../img/kol/11.png');
+}
+
+
 
 #ins_qualilty .warp .ins2_content h6 {
 	padding: 23px 0 8px;
