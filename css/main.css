@@ -292,10 +292,10 @@ a{
 #tab_pic .warp ul li .warp_text {
 	width: 80%;
 	color: #fff;
-	font-family: "raleway_normal";
+	font-family: "microsoft yahei";
 	text-align: center;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	left: 50%;
 	z-index: 3;
 }
@@ -1458,8 +1458,8 @@ a{
 #blog_item .warp h3 {
 	display: block;
 	color: #333333;
-	font-family: 'raleway_normal';
-	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-size: 24px;
 	font-weight: 500;
 	line-height: 24px;
 	text-align: center;
