@@ -1503,19 +1503,6 @@ a{
 	height: 356px;
 }
 
-#blog_item .warp .blog_items_warp .blog_item h6 {
-	margin: 40px 0 25px;
-	padding-top: 21px;
-	color: #111111;
-	font-family: 'raleway_normal';
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 25px;
-	/*text-transform: uppercase;*/
-	position: relative;
-	z-index: 1;
-}
-
 #blog_item .warp .blog_items_warp .blog_item>h6:before {
 	content: "";
 	display: block;
@@ -1568,8 +1555,8 @@ a{
 	padding-top: 21px;
 	color: #111111;
 	font-family: 'raleway_normal';
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: normal;
 	line-height: 25px;
 	position: relative;
 	z-index: 1;
@@ -1580,7 +1567,7 @@ a{
 	padding: 33px 40px 0;
 	background: #fff;
 	color: #111111;
-	font-family: 'raleway_mormal';
+	font-family: 'raleway_mormal',"microsoft yahei";
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 25px;
@@ -1589,7 +1576,7 @@ a{
 
 #blog_item .warp .blog_items_warp .blog_item .mask_warp .blog_mask span {
 	color: #bababa;
-	font-family: 'raleway_mormal';
+	font-family: 'raleway_mormal',"microsoft yahei";
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 25px;
@@ -1608,7 +1595,7 @@ a{
 
 #blog_item .warp .blog_items_warp .blog_item .mask_warp .blog_mask p {
 	font-size: 14px;
-	font-family: 'raleway_mormal';
+	font-family: 'raleway_mormal',"microsoft yahei";
 	line-height: 20px;
 	color: #333;
 	background: #fff;
@@ -1623,7 +1610,7 @@ a{
 }
 
 #blog_item .warp .blog_items_warp .blog_item .mask_warp .blog_mask i a {
-	font-family: 'raleway_mormal';
+	font-family: 'raleway_mormal',"microsoft yahei";
 	font-weight: 500;
 	color: #f1805f;
 	cursor: pointer;
@@ -1857,6 +1844,12 @@ a{
 	background-color: #f1805f;
 }
 
+@media screen and (max-width: 2000px) {
+	#ins_qualilty .warp {
+		margin: 0 120px;
+	}
+}
+
 @media screen and (max-width: 1400px) {
 	#cooperater .warp {
 		width: 950px;
@@ -1869,6 +1862,9 @@ a{
 	#product .warp .items:nth-of-type(6) img {
 		width: 200%;
 	}
+	#ins_qualilty .warp {
+	margin: 0 120px;
+}
 }
 
 @media screen and (max-width: 1170px) {
